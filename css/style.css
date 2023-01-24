@@ -1,15 +1,48 @@
-.banner-img-1{
-    background-image: url("../image/carousel/3.jpg");
-    height: 100vh;
+.section-first {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size:100% auto ;
 }
-.banner-img-2{
-    background-image: url("../image/carousel/4.jpg");
-    height: 100vh;
+
+.h-35 {
+    height: 35px;
 }
-.banner-img-3{
-    background-image: url("../image/carousel/5.jpg");
-    height: 100vh;
+.section-first-p{
+    padding: 104px 288px 104px 190px;
 }
-.client-image{
-    width: 160px;
+@media screen  and (max-width:576px){
+    .md-text{
+        margin-top: 0px;
+      
+    }
+    .md-text-h3{
+        font-weight: 800;
+    }
+    
+    .md-text-int{
+        margin-top: 2px;
+    }
+    .md-p{
+        display: none;
+    }
+    .sm-d-content{
+        display: contents;
+    }
+}
+@media screen  and (min-width:577px){
+    .section-first{
+        height: 550px;
+    }
+    
+    .sm-d-content{
+        display: none;
+    }
+    .md-text-int{
+        margin-top: 45px;
+    }
+    .md-text-h3{
+        font-weight: 800;
+        font-size: 35px;
+    }
+    
 }
