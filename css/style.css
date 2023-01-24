@@ -1,3 +1,7 @@
+
+*{
+    color: #414040;
+}
 .section-first {
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
@@ -11,52 +15,78 @@
 .section-first-p {
     padding: 104px 288px 104px 190px;
 }
-.slide-bg-1{
+
+.slide-bg-1 {
     background-image: url(../images/slider-1.jpg);
     background-repeat: no-repeat;
 
     background-size: 100% auto;
     height: 100vh;
-    
+
 }
-.slide-bg-2{
+
+.slide-bg-2 {
     background-image: url(../images/slider-2.jpg);
     background-repeat: no-repeat;
 
     background-size: 100% auto;
     height: 100vh;
-    
+
 }
-.slide-bg-3{
+
+.slide-bg-3 {
     background-image: url(../images/slider-3.jpg);
     background-repeat: no-repeat;
 
     background-size: 100% auto;
     height: 100vh;
-    
+
 }
 
 @media screen and (max-width:576px) {
-    .md-text {
-        margin-top: 0px;
+    /* carosol */
 
-    }
 
-    .md-text-h3 {
-        font-weight: 800;
-    }
+.slide-bg-1 {
 
-    .md-text-int {
-        margin-top: 2px;
-    }
+    height: 30vh;
 
-    .md-p {
-        display: none;
-    }
+}
 
-    .sm-d-content {
-        display: contents;
-    }
+.slide-bg-2 {
+    height: 30vh;
+
+}
+
+.slide-bg-3 {
+    height: 30vh;
+
+}
+
+
+/* emd */
+.md-text {
+    margin-top: 0px;
+
+}
+
+.md-text-h3 {
+    font-weight: 800;
+}
+
+.md-text-int {
+    margin-top: 2px;
+}
+
+.md-p {
+    display: none;
+}
+
+.sm-d-content {
+    display: contents;
+}
+
+
 }
 
 @media screen and (min-width:577px) {
@@ -73,17 +103,33 @@
     }
 
     .md-text-h3 {
-        font-weight: 800;
+        font-weight: 700;
         font-size: 35px;
+    }
+    .slide-bg-1 {
+
+        height: 30vh;
+    
+    }
+    
+    .slide-bg-2 {
+        height: 30vh;
+    
+    }
+    
+    .slide-bg-3 {
+        height: 30vh;
+    
     }
 
 
 }
 
 @media screen and (min-width:992px) {
-     .section-first {
+    .section-first {
         height: 550px;
-    } 
+    }
+
     .sm-d-content {
         display: none;
     }
@@ -91,6 +137,7 @@
     .md-text-p {
         margin-top: 45px;
     }
+
     .md-text-int {
         margin-top: 45px;
     }
@@ -99,11 +146,27 @@
         font-weight: 800;
         font-size: 35px;
     }
+    .slide-bg-1 {
+
+        height: 80vh;
     
+    }
+    
+    .slide-bg-2 {
+        height: 80vh;
+    
+    }
+    
+    .slide-bg-3 {
+        height: 80vh;
+    
+    }
+
 
 }
+
 @media screen and (min-width:1200px) {
-    
+
     .md-text-h3 {
         margin-top: 128px;
         font-weight: 800;
